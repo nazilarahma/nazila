@@ -1,0 +1,156 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color:#B4D7F1;
+	font-family: 'Chilanka', cursive;
+	font-size:24px;
+	color: #042057;
+
+}
+
+.warnaNavbar {
+	background: rgba(255, 255, 255, 0.5);
+
+}
+
+nav {
+	
+}
+.nav-link {
+	margin-right: 10px;
+	font-size: 30px;
+	color:#042057;
+	
+}
+
+
+.navbar-brand {
+	margin-left: 20px;
+	font-size: 23px;
+	color:#042057;
+
+	
+}
+
+.navbar-brand:hover {
+	color: #0eb2ed;
+}
+
+.paddingButton {
+	padding-left: 20px;
+}
+.home{
+	background-image: url('nazila.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+	padding:270px 30px;
+	text-align:right;
+	
+    top:0px;
+	font-family: 'Pacifico', cursive;
+font-size:60px;
+color:#EDE6E6;
+}
+.h2{
+	background:#80A7C5;
+	padding:10px;
+	font-size:36px;
+	
+}
+.h3{
+	background:#97C7F3;
+	padding:10px;
+	font-size:30px;
+	
+}
+.gambar{
+	object-fit: cover;
+	height:140px; 
+	width:140px;
+	margin: 10px;
+	background: #80A7C5;
+	
+}
+.gambar1{
+	object-fit: cover;
+	height:40px; 
+	width:40px;
+	margin-left: 80px;
+	
+}
+.about{
+	padding:20px 200px;
+	margin:20px;
+	text-align:center;
+}
+.or{
+	text-align:left;
+	margin-left:15px;
+}
+
+.gallery-foto {
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+.gallery-foto img{
+	
+	object-fit: cover;
+	height:250px; 
+	width:250px;
+}
+
+.gallery-foto h2{
+	align-self: center;
+}
+
+.foto-1 {
+	display: flex;
+	justify-content: flex-start;
+	
+	flex-direction: row;
+	
+}
+
+
+.foto-2 {
+	display: flex;
+	justify-content: flex-end;
+
+	flex-direction: row;
+}
+
+.foto-3 {
+	display: flex;
+	justify-content: flex-start;
+	
+	flex-direction: row;
+}
+.text{
+	display: flex;
+	flex-grow: 1;
+	
+	align-items:center;
+	justify-content:center;
+	font-size:60px;
+}
+
+
+
+.poetry{
+	text-align:center;
+	
+}
+.fixed{
+	position:fixed;
+	bottom:0;
+	text-align:center;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
+}
